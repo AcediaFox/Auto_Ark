@@ -1,5 +1,6 @@
 from autotool import auto_arknight
-import os, time
+import os
+import time
 MENU = """
 +------------------------------------+
 |           Auto Game Menu           |
@@ -10,6 +11,7 @@ MENU = """
 |0. Exit                             |
 +------------------------------------+
 """
+
 while True:
     os.system('cls')
     print(MENU)
