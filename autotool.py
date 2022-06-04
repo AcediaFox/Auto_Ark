@@ -35,7 +35,7 @@ def auto_arknight():
                         break
                     print('Move in step {} !'.format(idx+1))
                     click_pic(img)
-                    time.sleep(3)
+                    time.sleep(2)
                     break
         except Exception as e:
             print(e)
